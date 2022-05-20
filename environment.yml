@@ -4,8 +4,6 @@ channels:
   - conda-forge
 # - add packages here
 # - one per line
-  - networkx
-  - pyarrow
 dependencies:
   - numpy
   - pandas
@@ -20,6 +18,8 @@ dependencies:
   - pykafka
   - voila
   - hdfs3
+  - networkx
+  - pyarrow
   - pip
   - pip:
       - hdijupyterutils==0.19.1
